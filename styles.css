@@ -152,7 +152,7 @@ display: grid;
 
 /*RESPONSIVE*/
 
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 480px){
     .contendor{
         grid-template-areas: 
         "menu menu"
@@ -179,4 +179,14 @@ display: grid;
         "cuadro cuadro"
         "footer footer";
         align-items: center;
-        display: block;}}
+        display: block;}
+    .cuadro{
+        grid-template-areas: 
+        "menu menu"
+        "logo logo"
+        "cuadro cuadro"
+        "cuadro cuadro"
+        "footer footer";
+        
+        display: block;}
+    }
