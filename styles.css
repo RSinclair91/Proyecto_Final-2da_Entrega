@@ -73,6 +73,10 @@ img{
     display: block;
 }
 
+.d-block w-80{
+    justify-items: center;
+}
+
 /*CONTACTO*/
 
 
