@@ -56,25 +56,24 @@ img{
 
 /*GALERIA*/
 
-.imagenes img{
-    display: flex;
-    width: 25rem;
-    border: 2px double gray;
-    position: relative;
-    justify-content: space-between;
+.imagenes img{ 
+    position: relative;    
+    justify-items: center;
+    height: 50%;
+    width: 50%;
 }
+.carousel-inner .item img {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+}  
 
 .carousel{
     width: 80%;
-    height: 40%;
     align-items: center;
     margin: auto;
     position: relative;
     display: block;
-}
-
-.d-block w-80{
-    justify-items: center;
 }
 
 /*CONTACTO*/
@@ -90,7 +89,7 @@ img{
 }
 
 .btn{
-    background-color: rgb(90, 86, 86);
+    background-color: #5a5656;
     color: white;
 }
 
